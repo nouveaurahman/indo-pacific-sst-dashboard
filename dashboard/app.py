@@ -18,8 +18,8 @@ import xarray as xr
 import streamlit as st
 from azure.storage.blob import BlobServiceClient
 
-from dashboard.map_panel import render_map
-from dashboard.chart_panel import render_nino34_chart
+from map_panel import render_map
+from chart_panel import render_nino34_chart
 
 load_dotenv()
 
