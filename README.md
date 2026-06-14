@@ -37,7 +37,7 @@ sst-dashboard/
 \`\`\`
 
 ## Author
-Tyler (Abdul Rahman) · Petronas GEES 2026
+(Abdul Rahman)
 EOF
 
 git add README.md
