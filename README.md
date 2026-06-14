@@ -21,7 +21,7 @@ the context of the forecasted 2026 El Niño event.
 Python · xarray · Cartopy · Matplotlib · Plotly · Streamlit · Azure Blob Storage
 
 ## Live Demo
-[Launch Dashboard](https://share.streamlit.io](https://indo-pacific-sst-dashboard-zj57pkkjucvpzrtcsrfemg.streamlit.app/)
+[Launch Dashboard]([https://share.streamlit.io](https://indo-pacific-sst-dashboard-zj57pkkjucvpzrtcsrfemg.streamlit.app/])
 
 ## Project Structure
 \`\`\`
