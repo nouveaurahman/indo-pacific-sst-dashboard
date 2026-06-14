@@ -1,0 +1,14 @@
+xarray==2025.6.1
+netCDF4
+zarr
+pandas
+numpy
+matplotlib
+cartopy
+plotly
+streamlit
+azure-storage-blob
+python-dotenv
+pyarrow
+cftime
+requests
