@@ -68,8 +68,10 @@ def render_map(
         zmin=zmin,
         zmax=zmax,
         colorbar=dict(
-            title=colorbar_title,
-            titlefont=dict(color="#cccccc", size=11),
+            title=dict(
+                text=colorbar_title,
+                font=dict(color="#cccccc", size=11),
+            ),
             tickfont=dict(color="#cccccc", size=9),
             thickness=15,
         ),
