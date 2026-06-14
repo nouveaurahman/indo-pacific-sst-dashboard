@@ -4,7 +4,6 @@ zarr
 pandas
 numpy
 matplotlib
-cartopy==0.24.0
 plotly
 streamlit
 azure-storage-blob

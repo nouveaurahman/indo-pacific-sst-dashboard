@@ -186,7 +186,7 @@ fig_map = cached_map(
 )
 
 if fig_map is not None:
-    st.pyplot(fig_map, use_container_width=True)
+    st.plotly_chart(fig_map, use_container_width=True)
 else:
     st.warning(f"No data for {calendar.month_name[month]} {year}.")
 
