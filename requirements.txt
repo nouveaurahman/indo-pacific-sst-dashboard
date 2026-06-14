@@ -4,7 +4,7 @@ zarr
 pandas
 numpy
 matplotlib
-cartopy==0.23.0
+cartopy==0.24.0
 plotly
 streamlit
 azure-storage-blob
@@ -12,3 +12,4 @@ python-dotenv
 pyarrow
 cftime
 requests
+shapely
