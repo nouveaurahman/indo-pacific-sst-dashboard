@@ -97,9 +97,17 @@ def load_full_ssta() -> dict:
         lons = ds.lon.values
 
         # Build dict keyed by (year, month) for instant lookup
+        # Handle both cftime and numpy.datetime64 time types
+        import pandas as pd
         ssta_dict = {}
         for t in ds.time.values:
-            key = (t.year, t.month)
+            try:
+                # cftime object (has .year, .month directly)
+                key = (t.year, t.month)
+            except AttributeError:
+                # numpy.datetime64 — convert via pandas
+                ts = pd.Timestamp(t)
+                key = (ts.year, ts.month)
             ssta_dict[key] = ds["ssta"].sel(time=t).values
 
         return {
